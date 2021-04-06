@@ -1,0 +1,56 @@
+body {
+background-color: azure;
+font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: x-large;
+    line-height: 1.5;
+
+}
+input {
+    margin-bottom: 10px;
+
+}
+.container {
+ background-color: white;
+ margin-top: 120px;
+ margin-left: 30px;
+ margin-right: 30px;
+ border-radius: 20px;
+ padding: 30px 30px 30px 30px;
+ box-shadow: 2px 3px gray;
+ 
+}
+.header{
+    text-align:center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.subheader{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+
+}
+.card{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    margin: 10px;
+}
+.goodbye{
+    text-align: center;
+}
