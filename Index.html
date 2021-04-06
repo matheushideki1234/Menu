@@ -1,0 +1,60 @@
+# Menu
+Atividade Menu/Cardápio de desenvolvimento web (HTML/CSS/Javascript)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio/Menu</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+    <div class="header">Menu/Cardápio</div>
+
+<form action="">
+    <div class="grid card">
+     <div class="subheader">Dados Pessoais</div>
+    <label for="nome">Nome:</label> <input type="text" id="nome"> <br>
+    <label for="telefone">Telefone:</label> <input type="text" id="telefone"> <br>
+    <label for="email">Email:</label> <input type="email" id="telefone"> <br>
+    <div>
+    <div class="empresas">
+      <h2>Empresas com convenio</h2>
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="0">Nenhuma</option>
+                    <option value="5">Neide Salgados</option>
+                    <option value="15">Bar do giba</option>
+                    <option value="25">Pé de fava</option>
+                  </select>
+    </div>
+    <div class="card">
+    <div class="subheader"> Prato Principal</div>
+    <div class="goodbye">
+    <input type="radio" id="pp1" name="prato_principal" value="0"> <label for="pp1">Bife acebolado</label>
+    <input type="radio" id="pp2" name="prato_principal" value="1"> <label for="pp2">Peito de frango</label>
+    <input type="radio" id="pp3" name="prato_principal" value="2"> <label for="pp3">Carne de panela</label>
+    </div>
+    <div class="goodbye">
+    <div class="subheader">Acompanhamentos</div>
+    <input type="checkbox" id="acp1" name="acompanhamento" value="0"> <label for="acp1">Salada</label>
+    <input type="checkbox" id="acp2" name="acompanhamento" value="1"> <label for="acp2">Maionese</label>
+    <input type="checkbox" id="acp3" name="acompanhamento" value="2"> <label for="acp3">Farofa</label>
+    <input type="checkbox" id="acp4" name="acompanhamento" value="3"> <label for="acp4">Torresmo</label>
+    </div>
+    <br>
+    <br>
+    </div>
+    <div class="button">
+      <button type="button"data-bs-toggle="modal" data-bs-target="#exampleModal"onclick="script();">Fechar Pedido</button>
+      <div>
+    <div id="saida">
+
+    </div>
+      </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
