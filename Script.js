@@ -57,10 +57,10 @@ function script(){
         }
         if( empresa_desconto != "")
         {
-            saida.innerHTML += `Você obteve um desconto de ${empresa_desconto}%`;
+            saida.innerHTML += `Você obteve um desconto de: ${empresa_desconto}%`;
             saida.innerHTML += "<br><br>";
         }
-        saida.innerHTML += `<h2> Total do pedido ${precofinal}</h2>`;
+        saida.innerHTML += `<h2> Total do pedido: R$ ${precofinal}</h2>`;
         saida.innerHTML += "<br><br>";
         saida.innerHTML += "<br><br>";
     }
