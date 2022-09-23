@@ -4,6 +4,7 @@ Cardápio que eu desenvolvi em desenvolvimento web (HTML/CSS/Javascript) com boo
 . Tecnologias utilizadas:
 </br>
 . HTML5
+</br>
 . CSS3
 . JavaScript
 . BootStrap
